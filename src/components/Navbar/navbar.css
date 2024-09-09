@@ -1,0 +1,116 @@
+.navbar {
+    background: turquoise;
+    height: 5rem;
+    width: 100%;
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo {
+    object-fit: cover;
+    height: 2.3rem;
+    width: 2.6rem;
+    
+}
+
+.desktopMenu {
+    display: flex;
+    align-items: center;
+}
+
+.desktopMenuListItem {
+    margin: 0 1rem;
+    cursor: pointer;
+    color: black; /* Default text color */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+.desktopMenuListItem:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+
+.desktopMenuBtn {
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    text-decoration: none; /* Ensure Link behaves as a button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.desktopMenuBtn:hover {
+    background: lightgray; /* Change color on hover */
+}
+
+.desktopMenuImg {
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem; /* Adjust margin as needed */
+}
+
+.active{
+    color:yellow;
+    padding-bottom: 0.1rem;
+    border-bottom: 3px solid yellow;
+}
+.active1{
+    color:red;
+}
+.mobMenu
+{
+    height:1.8rem;
+    width:2rem;
+    display:none;
+    object-fit: cover;
+    
+}
+
+.navMenu
+{
+    position:absolute;
+    top:4rem;
+    right:2rem;
+    z-index:2;
+    display: flex;
+    flex-direction: column;
+    padding:0.5rem;
+    height:fit-content;
+    min-width: 10rem;
+    background: rgb(40,40,40);
+    border-radius: 1rem;
+}
+
+.listItem{
+    color:white;
+    padding:0.5rem 3rem;
+    margin:0.25rem;
+    background: rgb(30, 30, 30);
+}
+
+@media screen and (max-width:665px){
+    .mobMenu{
+        display: flex;
+        
+    }
+    .desktopMenu{
+        display:none;
+    }
+    .desktopMenuBtn{
+        display: none;
+    }
+}

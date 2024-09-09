@@ -1,0 +1,149 @@
+#intro {
+    height: calc(100vh - 5rem); /* Maintain the height */
+    width: 100%;
+    max-width: 85rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-top: 5rem; /* Added padding to account for sticky navbar */
+    margin-bottom: 50px; /* Ensure space below intro */
+}
+
+.imageContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bg {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.introContent {
+    height: 100%;
+    width: 50%;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introText
+ {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: aqua;
+}
+
+.introName {
+    color: yellow;
+}
+
+.introPara {
+    font-size: medium;
+    font-weight: 200;
+}
+
+.btn {
+    background: rgb(123, 122, 276);
+    margin: 1rem 0.3rem;
+    color: beige;
+    padding: 1rem;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.links1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.75rem; /* Adjusted for better spacing */
+     /* Added margin for spacing */
+}
+
+.clientImg1 {
+    object-fit: cover;
+    height: 2.4rem;
+    width: 2.4rem;
+    margin: 0 0rem;
+    border-radius: 60%; /* Optional: Makes the logos circular */
+}
+
+
+
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    #intro {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 50px; /* Ensure space below intro */
+    }
+
+    .imageContainer {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .bg {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .introContent {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text readability */
+        color: white; /* Text color to contrast the background */
+        padding: 1rem;
+        font-size: 1.5rem;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hello {
+        font-size: 1.25rem;
+    }
+
+    .introText {
+        font-size: 1.8rem;
+    }
+
+    .introPara {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #intro {
+        margin-bottom: 50px; /* Ensure space below intro */
+    }
+}
