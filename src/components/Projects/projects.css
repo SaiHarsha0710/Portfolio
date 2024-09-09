@@ -104,7 +104,7 @@
 }
 
 .view-button-container.double-button {
-    justify-content: space-evenly;
+    justify-content: space;
 }
 
 .certification-content h3 {
