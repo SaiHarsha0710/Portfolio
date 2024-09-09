@@ -45,7 +45,7 @@ const Projects = () => {
                                     <button className="view-button">View</button>
                                 </a>
                                 <a href="https://github.com/SaiHarsha0710">
-                                    <button className="view-button">Link</button>
+                                    <button className="view-button">Code</button>
                                 </a>
                             </div>
                         </div>
@@ -60,13 +60,15 @@ const Projects = () => {
                         <div className="certification-content">
                             <h3>URL Shortener</h3>
                             <p>Built a URL shortener application with Node.js, Express.js, and EJS, enabling efficient link management.</p>
+
                             <div className="view-button-container double-button">
-                                <a href="https://github.com/SaiHarsha0710/URL_Shortener">
+                                <a href="https://url-shortener1-psi.vercel.app/">
                                     <button className="view-button">View</button>
                                 </a>
-                                <a href="https://url-shortener1-psi.vercel.app/">
-                                    <button className="view-button">Link</button>
+                                <a href="https://github.com/SaiHarsha0710/URL_Shortener">
+                                    <button className="view-button">Code</button>
                                 </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -81,12 +83,13 @@ const Projects = () => {
                             <h3>QR Code Generator</h3>
                             <p>Developed a responsive QR Code Generator using React, featuring neon-themed UI elements and real-time QR code generation based on user input.</p>
                             <div className="view-button-container double-button">
-                                <a href="https://github.com/SaiHarsha0710">
+                                <a href="https://qr-code-generator-harsha.vercel.app/">
                                     <button className="view-button">View</button>
                                 </a>
-                                <a href="https://qr-code-generator-harsha.vercel.app/">
-                                    <button className="view-button">Link</button>
+                                <a href="https://github.com/SaiHarsha0710">
+                                    <button className="view-button">Code</button>
                                 </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -99,14 +102,15 @@ const Projects = () => {
                         </div>
                         <div className="certification-content">
                             <h3>InstaVideo Download</h3>
-                            <p>Built an Insta Video Downloader using APIs to reliably and efficiently download Instagram videos.</p>
+                            <p>I developed an Instagram Video Downloader leveraging powerful APIs to ensure the reliable and efficient downloading of Instagram videos.</p>
                             <div className="view-button-container double-button">
-                                <a href="https://github.com/SaiHarsha0710/instaDownload">
+                                <a href="https://qr-code-generator-harsha.vercel.app/">
                                     <button className="view-button">View</button>
                                 </a>
-                                <a href="https://qr-code-generator-harsha.vercel.app/">
-                                    <button className="view-button">Link</button>
+                                <a href="https://github.com/SaiHarsha0710/instaDownload">
+                                    <button className="view-button">Code</button>
                                 </a>
+
                             </div>
                         </div>
                     </div>
