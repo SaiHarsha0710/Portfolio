@@ -104,7 +104,7 @@ const Projects = () => {
                             <h3>InstaVideo Download</h3>
                             <p>I developed an Instagram Video Downloader leveraging powerful APIs to ensure the reliable and efficient downloading of Instagram videos.</p>
                             <div className="view-button-container double-button">
-                                <a href="https://qr-code-generator-harsha.vercel.app/">
+                                <a href="https://insta-download-harsha.vercel.app/">
                                     <button className="view-button">View</button>
                                 </a>
                                 <a href="https://github.com/SaiHarsha0710/instaDownload">
