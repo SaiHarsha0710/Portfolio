@@ -86,7 +86,7 @@ const Projects = () => {
                                 <a href="https://qr-code-generator-harsha.vercel.app/">
                                     <button className="view-button">View</button>
                                 </a>
-                                <a href="https://github.com/SaiHarsha0710">
+                                <a href="https://github.com/SaiHarsha0710/QR-Code-Generator">
                                     <button className="view-button">Code</button>
                                 </a>
                                 
