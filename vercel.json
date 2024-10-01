@@ -3,7 +3,7 @@
   "public": true,
   "builds": [
     {
-      "src": "package.json",
+      "src": "index.js",
       "use": "@vercel/static-build",
       "config": { "distDir": "build" }
     }
@@ -11,7 +11,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/index.js"
     }
   ]
 }
