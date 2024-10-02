@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.0cd74c35.css",
+    "main.js": "/Portfolio/static/js/main.6a59f2b6.js",
+    "static/media/Henotic.jpeg": "/Portfolio/static/media/Henotic.ebd856004199c4619d1e.jpeg",
+    "static/media/Python for Ds.png": "/Portfolio/static/media/Python for Ds.1b7620c6f9f3b26a76af.png",
+    "static/media/DataScience.png": "/Portfolio/static/media/DataScience.2461146269d458a8ebf0.png",
+    "static/media/Python1.png": "/Portfolio/static/media/Python1.869d69ee77f642a66d2b.png",
+    "static/media/Python2.png": "/Portfolio/static/media/Python2.a07a77498a877179e0c6.png",
+    "static/media/p4.png": "/Portfolio/static/media/p4.8d0a9aa9a689d12b3a3a.png",
+    "static/media/instavideo.png": "/Portfolio/static/media/instavideo.cdbd104e0c27a7ce7602.png",
+    "static/media/8.png": "/Portfolio/static/media/8.ff2648078e819f6a9666.png",
+    "static/media/url_short.jpg": "/Portfolio/static/media/url_short.109bcea99e5f3f2181e1.jpg",
+    "static/media/qr.png": "/Portfolio/static/media/qr.54d022e9aecde48e0f80.png",
+    "static/media/imagesearch.webp": "/Portfolio/static/media/imagesearch.dd75a6b48defad64dd7f.webp",
+    "static/media/todo.jpg": "/Portfolio/static/media/todo.ad4eb5b43788de0239b8.jpg",
+    "static/media/link.jpeg": "/Portfolio/static/media/link.d7d509b8de17c50172f3.jpeg",
+    "static/media/dataset-cover.jpg": "/Portfolio/static/media/dataset-cover.fb5365f370d2e6a5dda2.jpg",
+    "static/media/menu.jpg": "/Portfolio/static/media/menu.23897742c8896c5763b5.jpg",
+    "static/media/hack.png": "/Portfolio/static/media/hack.eab675a51239a438321a.png",
+    "static/media/Wipro.webp": "/Portfolio/static/media/Wipro.b0517c88607f3b987b4d.webp",
+    "index.html": "/Portfolio/index.html",
+    "main.0cd74c35.css.map": "/Portfolio/static/css/main.0cd74c35.css.map",
+    "main.6a59f2b6.js.map": "/Portfolio/static/js/main.6a59f2b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cd74c35.css",
+    "static/js/main.6a59f2b6.js"
+  ]
+}
