@@ -4,7 +4,7 @@ import a from '../../Old Photos/dataset-cover.jpg';
 import b from '../../Old Photos/url_short.jpg';
 import c from '../../Old Photos/qr.png';
 import d from '../../Old Photos/todo.jpg';
-import e from '../../Old Photos/instavideo.png';
+
 import f from '../../Old Photos/imagesearch.webp';
 
 const Projects = () => {
@@ -41,9 +41,7 @@ const Projects = () => {
                             <h3>TODO List</h3>
                             <p>Created a TODO application using the MERN stack, offering efficient task management and user-friendly interface.</p>
                             <div className="view-button-container double-button">
-                                <a href="https://github.com/SaiHarsha0710">
-                                    <button className="view-button">View</button>
-                                </a>
+                                
                                 <a href="https://github.com/SaiHarsha0710">
                                     <button className="view-button">Code</button>
                                 </a>
@@ -95,26 +93,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="certification-card">
-                    <div className="certification-card-inner">
-                        <div className="certification-icon-container">
-                            <img src={e} alt="NPTEL Icon" className="certification-icon" />
-                        </div>
-                        <div className="certification-content">
-                            <h3>InstaVideo Download</h3>
-                            <p>I developed an Instagram Video Downloader leveraging powerful APIs to ensure the reliable and efficient downloading of Instagram videos.</p>
-                            <div className="view-button-container double-button">
-                                <a href="https://insta-download-harsha.vercel.app/">
-                                    <button className="view-button">View</button>
-                                </a>
-                                <a href="https://github.com/SaiHarsha0710/instaDownload">
-                                    <button className="view-button">Code</button>
-                                </a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div className="certification-card">
                     <div className="certification-card-inner">
